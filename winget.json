@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-03T03:36:06.146-00:00",
+	"CreationDate" : "2023-07-03T03:58:37.464-00:00",
 	"Sources" : 
 	[
 		{
@@ -117,10 +117,6 @@
 				{
 					"PackageIdentifier" : "Oracle.JDK.17",
 					"Version" : "17.0.7.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.Teams",
-					"Version" : "1.6.0.11166"
 				},
 				{
 					"PackageIdentifier" : "LINQPad.LINQPad.5",
