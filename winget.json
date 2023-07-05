@@ -7,16 +7,13 @@
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "9NCTJ2CQWXV0",
-					"Version" : "17.0.0.0"
+					"PackageIdentifier" : "9NCTJ2CQWXV0"
 				},
 				{
-					"PackageIdentifier" : "9P7KNL5RWT25",
-					"Version" : "2023.6.1.0"
+					"PackageIdentifier" : "9P7KNL5RWT25"
 				},
 				{
-					"PackageIdentifier" : "XPDM1ZW6815MQM",
-					"Version" : "3.0.18"
+					"PackageIdentifier" : "XPDM1ZW6815MQM"
 				}
 			],
 			"SourceDetails" : 
@@ -31,208 +28,157 @@
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "th-ch.YouTubeMusic",
-					"Version" : "1.20.0"
+					"PackageIdentifier" : "th-ch.YouTubeMusic"
 				},
 				{
-					"PackageIdentifier" : "Canonical.Ubuntu.2204",
-					"Version" : "2204.2.33.0"
+					"PackageIdentifier" : "Canonical.Ubuntu.2204"
 				},
 				{
-					"PackageIdentifier" : "Discord.Discord",
-					"Version" : "1.0.9013"
+					"PackageIdentifier" : "Discord.Discord"
 				},
 				{
-					"PackageIdentifier" : "Docker.DockerDesktop",
-					"Version" : "4.21.1"
+					"PackageIdentifier" : "Docker.DockerDesktop"
 				},
 				{
-					"PackageIdentifier" : "Dropbox.Dropbox",
-					"Version" : "177.4.5399"
+					"PackageIdentifier" : "Dropbox.Dropbox"
 				},
 				{
-					"PackageIdentifier" : "Telerik.Fiddler.Classic",
-					"Version" : "5.0.20211.51073"
+					"PackageIdentifier" : "Telerik.Fiddler.Classic"
 				},
 				{
-					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.41.0"
+					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "GnuPG.GnuPG",
-					"Version" : "2.4.0"
+					"PackageIdentifier" : "GnuPG.GnuPG"
 				},
 				{
-					"PackageIdentifier" : "GnuPG.Gpg4win",
-					"Version" : "4.1.0"
+					"PackageIdentifier" : "GnuPG.Gpg4win"
 				},
 				{
-					"PackageIdentifier" : "Gyan.FFmpeg",
-					"Version" : "6.0"
+					"PackageIdentifier" : "Gyan.FFmpeg"
 				},
 				{
-					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Full",
-					"Version" : "17.5.2"
+					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Full"
 				},
 				{
-					"PackageIdentifier" : "CrystalRich.LockHunter",
-					"Version" : "3.4.3.146"
+					"PackageIdentifier" : "CrystalRich.LockHunter"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "114.0.1823.67"
+					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "114.0.1823.67"
+					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.17.11461.0"
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				},
 				{
-					"PackageIdentifier" : "OBSProject.OBSStudio",
-					"Version" : "29.1.3"
+					"PackageIdentifier" : "OBSProject.OBSStudio"
 				},
 				{
-					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh",
-					"Version" : "17.6.0"
+					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "23.122.0611.0001"
+					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
-					"PackageIdentifier" : "Postman.Postman",
-					"Version" : "10.15.0"
+					"PackageIdentifier" : "Postman.Postman"
 				},
 				{
-					"PackageIdentifier" : "SublimeHQ.SublimeText.4",
-					"Version" : "Unknown"
+					"PackageIdentifier" : "SublimeHQ.SublimeText.4"
 				},
 				{
-					"PackageIdentifier" : "WinDirStat.WinDirStat",
-					"Version" : "Unknown"
+					"PackageIdentifier" : "WinDirStat.WinDirStat"
 				},
 				{
-					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "6.22.0"
+					"PackageIdentifier" : "RARLab.WinRAR"
 				},
 				{
-					"PackageIdentifier" : "cURL.cURL",
-					"Version" : "8.1.2"
+					"PackageIdentifier" : "cURL.cURL"
 				},
 				{
-					"PackageIdentifier" : "chrisant996.Clink",
-					"Version" : "1.5.0"
+					"PackageIdentifier" : "chrisant996.Clink"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Enterprise",
-					"Version" : "17.6.4"
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Enterprise"
 				},
 				{
-					"PackageIdentifier" : "ElectronCommunity.ElectronFiddle",
-					"Version" : "0.32.9"
+					"PackageIdentifier" : "ElectronCommunity.ElectronFiddle"
 				},
 				{
-					"PackageIdentifier" : "pnpm.pnpm",
-					"Version" : "8.6.6"
+					"PackageIdentifier" : "pnpm.pnpm"
 				},
 				{
-					"PackageIdentifier" : "SearchDeflector.SearchDeflector",
-					"Version" : "1.3.2"
+					"PackageIdentifier" : "SearchDeflector.SearchDeflector"
 				},
 				{
-					"PackageIdentifier" : "Python.Python.3.12",
-					"Version" : "3.12.0a1"
+					"PackageIdentifier" : "Python.Python.3.12"
 				},
 				{
-					"PackageIdentifier" : "OpenJS.NodeJS",
-					"Version" : "20.3.1"
+					"PackageIdentifier" : "OpenJS.NodeJS"
 				},
 				{
-					"PackageIdentifier" : "7zip.7zip",
-					"Version" : "23.01.00.0"
+					"PackageIdentifier" : "7zip.7zip"
 				},
 				{
-					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment",
-					"Version" : "8.0.3610.9"
+					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment"
 				},
 				{
-					"PackageIdentifier" : "JetBrains.ReSharper.EarlyAccess",
-					"Version" : "2021.2 EAP 8"
+					"PackageIdentifier" : "JetBrains.ReSharper.EarlyAccess"
 				},
 				{
-					"PackageIdentifier" : "PuTTY.PuTTY",
-					"Version" : "0.78.0.0"
+					"PackageIdentifier" : "PuTTY.PuTTY"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019",
-					"Version" : "15.0.2000.5"
+					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019"
 				},
 				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
-					"Version" : "4.0.6.0"
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark"
 				},
 				{
-					"PackageIdentifier" : "Oracle.JDK.17",
-					"Version" : "17.0.7.0"
+					"PackageIdentifier" : "Oracle.JDK.17"
 				},
 				{
-					"PackageIdentifier" : "MongoDB.Compass.Full",
-					"Version" : "1.38.2.0"
+					"PackageIdentifier" : "MongoDB.Compass.Full"
 				},
 				{
-					"PackageIdentifier" : "Google.Drive",
-					"Version" : "77.0.3.0"
+					"PackageIdentifier" : "Google.Drive"
 				},
 				{
-					"PackageIdentifier" : "LINQPad.LINQPad.5",
-					"Version" : "5.47.0"
+					"PackageIdentifier" : "LINQPad.LINQPad.5"
 				},
 				{
-					"PackageIdentifier" : "LINQPad.LINQPad.7",
-					"Version" : "7.7.15"
+					"PackageIdentifier" : "LINQPad.LINQPad.7"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsADK",
-					"Version" : "10.1.19041.1"
+					"PackageIdentifier" : "Microsoft.WindowsADK"
 				},
 				{
-					"PackageIdentifier" : "Nilesoft.Shell",
-					"Version" : "1.8.1"
+					"PackageIdentifier" : "Nilesoft.Shell"
 				},
 				{
-					"PackageIdentifier" : "voidtools.Everything",
-					"Version" : "1.4.1.1024"
+					"PackageIdentifier" : "voidtools.Everything"
 				},
 				{
-					"PackageIdentifier" : "SlackTechnologies.Slack",
-					"Version" : "4.32.122"
+					"PackageIdentifier" : "SlackTechnologies.Slack"
 				},
 				{
-					"PackageIdentifier" : "GitHub.GitHubDesktop",
-					"Version" : "3.2.6.0"
+					"PackageIdentifier" : "GitHub.GitHubDesktop"
 				},
 				{
-					"PackageIdentifier" : "gerardog.gsudo",
-					"Version" : "2.0.9"
+					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.79.2"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "lencx.ChatGPT",
-					"Version" : "1.0.0"
+					"PackageIdentifier" : "lencx.ChatGPT"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7",
-					"Version" : "7.0.8"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys",
-					"Version" : "0.70.1"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				}
 			],
 			"SourceDetails" : 
