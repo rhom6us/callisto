@@ -12,7 +12,7 @@ EOW
     # BONUS: Check if after reseting, there is no actual changes to be commited and if so, exit 1 so the commit process will abort.
     if [[ $(git diff --no-ext-diff --cached | wc -l) -eq 0 ]]; then
         echo there are no actual changes to be commited and besides the change to the date so I\'m discarding.
-        git checkout -q -- winget.json
-        exit 0
+        # git checkout -q -- winget.json
+        exit 1
     fi
 fi
