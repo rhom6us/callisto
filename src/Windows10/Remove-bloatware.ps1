@@ -1,7 +1,7 @@
 #requires -version 4
 <#
 .SYNOPSIS
-  
+
 .DESCRIPTION
   Removes pre-installed apps from Windows 10
   Based on https://github.com/W4RH4WK/Debloat-Windows-10/blob/master/scripts/remove-default-apps.ps1
@@ -16,13 +16,13 @@
   Purpose/Change: Check if app exists on version
                   Remove local app storage
 
-  
+
 
 #>
 
 $apps = @(
     # default Windows 10 apps
-    "Microsoft.549981C3F5F10" #Cortana
+    # "Microsoft.549981C3F5F10" #Cortana
     "Microsoft.3DBuilder"
     "Microsoft.Appconnector"
     "Microsoft.BingFinance"
@@ -39,26 +39,26 @@ $apps = @(
     #"Microsoft.MicrosoftStickyNotes"
     "Microsoft.MinecraftUWP"
     "Microsoft.NetworkSpeedTest"
-    "Microsoft.Office.OneNote"
+    # "Microsoft.Office.OneNote"
     "Microsoft.People"
     "Microsoft.Print3D"
-    "Microsoft.SkypeApp"
+    # "Microsoft.SkypeApp"
     "Microsoft.Wallet"
     #"Microsoft.Windows.Photos"
     "Microsoft.WindowsAlarms"
     #"Microsoft.WindowsCalculator"
     "Microsoft.WindowsCamera"
-    "microsoft.windowscommunicationsapps"
+    # "microsoft.windowscommunicationsapps"
     "Microsoft.WindowsMaps"
     "Microsoft.WindowsPhone"
-    "Microsoft.WindowsSoundRecorder"
+    # "Microsoft.WindowsSoundRecorder"
     #"Microsoft.WindowsStore"
     "Microsoft.Xbox.TCUI"
     "Microsoft.XboxApp"
     "Microsoft.XboxGameOverlay"
     "Microsoft.XboxGamingOverlay"
     "Microsoft.XboxSpeechToTextOverlay"
-    "Microsoft.YourPhone"
+    # "Microsoft.YourPhone"
     "Microsoft.ZuneMusic"
     "Microsoft.ZuneVideo"
 
@@ -86,12 +86,12 @@ $apps = @(
     "Microsoft.MixedReality.Portal"
     "Microsoft.ScreenSketch"
     "Microsoft.XboxGamingOverlay"
-    "Microsoft.YourPhone"
+    # "Microsoft.YourPhone"
 
     # non-Microsoft
     "2FE3CB00.PicsArt-PhotoStudio"
     "46928bounde.EclipseManager"
-    "4DF9E0F8.Netflix"
+    # "4DF9E0F8.Netflix"
     "613EBCEA.PolarrPhotoEditorAcademicEdition"
     "6Wunderkinder.Wunderlist"
     "7EE7776C.LinkedInforWindows"
@@ -100,7 +100,7 @@ $apps = @(
     "A278AB0D.DisneyMagicKingdoms"
     "A278AB0D.MarchofEmpires"
     "ActiproSoftwareLLC.562882FEEB491" # next one is for the Code Writer from Actipro Software LLC
-    "CAF9E577.Plex"  
+    "CAF9E577.Plex"
     "ClearChannelRadioDigital.iHeartRadio"
     "D52A8D61.FarmVille2CountryEscape"
     "D5EA27B7.Duolingo-LearnLanguagesforFree"
@@ -129,7 +129,7 @@ $apps = @(
     "king.com.BubbleWitch3Saga"
     "king.com.CandyCrushSaga"
     "king.com.CandyCrushSodaSaga"
-    "Tile.TileWindowsApplication"
+    # "Tile.TileWindowsApplication"
 
     # apps which other apps depend on
     "Microsoft.Advertising.Xaml"
@@ -137,11 +137,11 @@ $apps = @(
 
 $apps | ForEach-Object {
 
-    If ($appVersion){ 
+    If ($appVersion){
       Try { Write-Output "Attempting to uninstall: $_..."
         Get-AppxPackage -Name $_ | Remove-AppxPackage -ErrorAction SilentlyContinue
         Get-AppxPackage -Name $_ -AllUsers | Remove-AppxPackage -AllUsers -ErrorAction SilentlyContinue
-      } 
+      }
       Catch {
         Write-Warning -Message "Failed to uninstall: $_"
       }
