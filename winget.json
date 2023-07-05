@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-04T17:21:38.332-00:00",
+	"CreationDate" : "2023-07-05T10:01:01.125-00:00",
 	"Sources" : 
 	[
 		{
@@ -53,6 +53,14 @@
 				{
 					"PackageIdentifier" : "Git.Git",
 					"Version" : "2.41.0"
+				},
+				{
+					"PackageIdentifier" : "GnuPG.GnuPG",
+					"Version" : "2.4.0"
+				},
+				{
+					"PackageIdentifier" : "GnuPG.Gpg4win",
+					"Version" : "4.1.0"
 				},
 				{
 					"PackageIdentifier" : "Gyan.FFmpeg",
