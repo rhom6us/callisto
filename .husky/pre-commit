@@ -1,0 +1,18 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# this hook looks for lines with the text `CreationDate` in the file `winget.json` and it resets these lines to the previous state before staged with `reset -p`
+
+if [[ $(git diff --no-ext-diff --cached winget.json | grep --count -e "CreationDate") -ne 0 ]]; then
+    cat <<EOW
+WARNING: You are attempting to commit changes which are not supposed to be commited according to this \`pre-commit\` hook
+This \`pre-commit\` hook will reset all the files containing this line to it's previous state in the last commit.
+EOW
+    echo /$'\n'CreationDate$'\n's$'\n's$'\n'y$'\n'q | git reset -p
+    # BONUS: Check if after reseting, there is no actual changes to be commited and if so, exit 1 so the commit process will abort.
+    if [[ $(git diff --no-ext-diff --cached | wc -l) -eq 0 ]]; then
+        echo there are no actual changes to be commited and besides the change to the date so I\'m discarding.
+        git checkout -q -- winget.json
+        exit 0
+    fi
+fi
