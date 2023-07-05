@@ -2,33 +2,14 @@
 [string] $remote='git@github.com:rhom6us/callisto.git',
 #[Parameter(Mandatory)]
 [string] $repo=[System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), 'callisto'),
+[switch] $includeVersions,
 [switch] $deleteRepoAfter
 )
 
 
-if ([System.IO.Directory]::Exists([System.IO.Path]::Combine($repo, '.git'))) {
-
-    $a = git -C $repo remote -v | Get-RepoUrl
-    $b = $remote | Get-RepoUrl
-    if($a -ne $b) {
-        Write-Host "wtf mate" -ForegroundColor Red
-        exit 1
-    }
-    git -C $repo pull
- } else {
-    git clone -b winget --single-branch $remote $repo 2>&1 | %{ "$_" }
- }
-set-location -Path $repo
 
 
 
-winget export -o .\winget.json --include-versions
-git commit -a -m "New export via Windows Task Scheduler"
-git push  2>&1 | %{ "$_" }
-
-if ($deleteRepoAfter){
-    Remove-Item -Recurse -Force $repo
-}
 
 function Get-RepoUrls {
     [CmdletBinding(DefaultParameterSetName = 'Path')]
@@ -50,3 +31,42 @@ function Get-RepoUrl([Parameter(ValueFromPipeline)] [string] $gitpath) {
         Write-Host "Please use the ""git@...git"" format url." -ForegroundColor "red"
     }
 }
+
+
+
+
+
+
+if ([System.IO.Directory]::Exists([System.IO.Path]::Combine($repo, '.git'))) {
+    $a = git -C $repo remote -v | Get-RepoUrl
+    $b = $remote | Get-RepoUrl
+    if ($a -ne $b) {
+        Write-Host "wtf mate" -ForegroundColor Red
+        exit 1
+    }
+    git -C $repo pull
+}
+else {
+    git clone -b winget --single-branch $remote $repo 2>&1 | % { "$_" }
+}
+
+set-location -Path $repo
+
+if ($includeVersions) {
+    winget export -o .\winget.json --include-versions
+}
+else {
+    winget export -o .\winget.json
+}
+
+#remove the date from the document so that there isn't a new git revision if nothing else changed
+(Get-Content winget.json) -replace '[^\n]*"CreationDate"[^\n]*', '' | Set-Content winget.json
+
+git commit -a -m "New export via Windows Task Scheduler"
+git push  2>&1 | % { "$_" }
+
+
+if ($deleteRepoAfter) {
+    Remove-Item -Recurse -Force $repo
+}
+
