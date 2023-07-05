@@ -2,7 +2,7 @@
     "$schema":  "https://aka.ms/winget-packages.schema.2.0.json",
     "CreationDate":  {
                          "CreationDate":  {
-                                              "CreationDate":  "contentdate"
+                                              "CreationDate":  "@{CreationDate=contentdate}"
                                           }
                      },
     "Sources":  [
