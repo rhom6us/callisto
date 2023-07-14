@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-14T04:21:08.225-00:00",
+	"CreationDate" : "2023-07-14T07:38:42.248-00:00",
 	"Sources" : 
 	[
 		{
@@ -149,6 +149,10 @@
 				{
 					"PackageIdentifier" : "SearchDeflector.SearchDeflector",
 					"Version" : "1.3.2"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS",
+					"Version" : "20.4.0"
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.12",
