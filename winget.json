@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-14T07:38:42.248-00:00",
+	"CreationDate" : "2023-07-14T07:40:25.143-00:00",
 	"Sources" : 
 	[
 		{
@@ -151,10 +151,6 @@
 					"Version" : "1.3.2"
 				},
 				{
-					"PackageIdentifier" : "OpenJS.NodeJS",
-					"Version" : "20.4.0"
-				},
-				{
 					"PackageIdentifier" : "Python.Python.3.12",
 					"Version" : "3.12.0a1"
 				},
@@ -225,6 +221,10 @@
 				{
 					"PackageIdentifier" : "GitHub.GitHubDesktop",
 					"Version" : "3.2.6.0"
+				},
+				{
+					"PackageIdentifier" : "OpenJS.NodeJS.LTS",
+					"Version" : "18.16.1"
 				},
 				{
 					"PackageIdentifier" : "writage.writage",
