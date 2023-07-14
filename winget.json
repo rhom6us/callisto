@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-
+	"CreationDate" : "2023-07-14T04:15:05.902-00:00",
 	"Sources" : 
 	[
 		{
@@ -48,11 +48,15 @@
 				},
 				{
 					"PackageIdentifier" : "Dropbox.Dropbox",
-					"Version" : "177.4.5399"
+					"Version" : "178.4.4811"
 				},
 				{
 					"PackageIdentifier" : "Telerik.Fiddler.Classic",
 					"Version" : "5.0.20211.51073"
+				},
+				{
+					"PackageIdentifier" : "GitHub.GitHubDesktop",
+					"Version" : "3.2.6"
 				},
 				{
 					"PackageIdentifier" : "Git.Git",
@@ -80,11 +84,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "114.0.1823.67"
+					"Version" : "114.0.1823.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "114.0.1823.67"
+					"Version" : "114.0.1823.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -100,7 +104,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "23.122.0611.0001"
+					"Version" : "23.132.0625.0001"
 				},
 				{
 					"PackageIdentifier" : "Postman.Postman",
@@ -109,6 +113,10 @@
 				{
 					"PackageIdentifier" : "SublimeHQ.SublimeText.4",
 					"Version" : "Unknown"
+				},
+				{
+					"PackageIdentifier" : "TeamSophia.SophiApp",
+					"Version" : "1.0.94"
 				},
 				{
 					"PackageIdentifier" : "WinDirStat.WinDirStat",
@@ -147,10 +155,6 @@
 					"Version" : "3.12.0a1"
 				},
 				{
-					"PackageIdentifier" : "OpenJS.NodeJS",
-					"Version" : "20.3.1"
-				},
-				{
 					"PackageIdentifier" : "7zip.7zip",
 					"Version" : "23.01.00.0"
 				},
@@ -161,6 +165,10 @@
 				{
 					"PackageIdentifier" : "JetBrains.ReSharper.EarlyAccess",
 					"Version" : "2021.2 EAP 8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.3.5.0"
 				},
 				{
 					"PackageIdentifier" : "PuTTY.PuTTY",
@@ -215,6 +223,10 @@
 					"Version" : "3.2.6.0"
 				},
 				{
+					"PackageIdentifier" : "writage.writage",
+					"Version" : "2.12.0.0"
+				},
+				{
 					"PackageIdentifier" : "gerardog.gsudo",
 					"Version" : "2.0.9"
 				},
@@ -227,12 +239,12 @@
 					"Version" : "1.0.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7",
-					"Version" : "7.0.8"
+					"PackageIdentifier" : "Microsoft.PowerToys",
+					"Version" : "0.71.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys",
-					"Version" : "0.70.1"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7",
+					"Version" : "7.0.9"
 				}
 			],
 			"SourceDetails" : 
