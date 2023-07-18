@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-14T07:40:25.143-00:00",
+	"CreationDate" : "2023-07-18T16:56:03.804-00:00",
 	"Sources" : 
 	[
 		{
@@ -84,11 +84,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "114.0.1823.79"
+					"Version" : "114.0.1823.82"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "114.0.1823.79"
+					"Version" : "114.0.1823.82"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
@@ -104,7 +104,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "23.132.0625.0001"
+					"Version" : "23.137.0702.0001"
 				},
 				{
 					"PackageIdentifier" : "Postman.Postman",
@@ -165,6 +165,10 @@
 				{
 					"PackageIdentifier" : "JetBrains.ReSharper.EarlyAccess",
 					"Version" : "2021.2 EAP 8"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
+					"Version" : "11.0.61030.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerShell",
@@ -236,7 +240,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.79.2"
+					"Version" : "1.80.1"
 				},
 				{
 					"PackageIdentifier" : "lencx.ChatGPT",
