@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-18T16:56:24.642-00:00",
+	"CreationDate" : "2023-07-18T16:56:36.393-00:00",
 	"Sources" : 
 	[
 		{
@@ -209,6 +209,10 @@
 				{
 					"PackageIdentifier" : "Microsoft.WindowsADK",
 					"Version" : "10.1.19041.1"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
+					"Version" : "12.0.40664.0"
 				},
 				{
 					"PackageIdentifier" : "Nilesoft.Shell",
