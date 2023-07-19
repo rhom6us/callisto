@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-18T16:57:43.645-00:00",
+	"CreationDate" : "2023-07-19T17:43:32.673-00:00",
 	"Sources" : 
 	[
 		{
@@ -119,6 +119,10 @@
 					"Version" : "1.0.94"
 				},
 				{
+					"PackageIdentifier" : "marha.VcXsrv",
+					"Version" : "1.20.14.0"
+				},
+				{
 					"PackageIdentifier" : "WinDirStat.WinDirStat",
 					"Version" : "Unknown"
 				},
@@ -153,6 +157,10 @@
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
 					"Version" : "12.0.40664.0"
+				},
+				{
+					"PackageIdentifier" : "jasongin.nvs",
+					"Version" : "1.7.0"
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.12",
@@ -200,7 +208,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.Drive",
-					"Version" : "77.0.3.0"
+					"Version" : "78.0.1.0"
 				},
 				{
 					"PackageIdentifier" : "LINQPad.LINQPad.5",
@@ -233,10 +241,6 @@
 				{
 					"PackageIdentifier" : "GitHub.GitHubDesktop",
 					"Version" : "3.2.6.0"
-				},
-				{
-					"PackageIdentifier" : "OpenJS.NodeJS.LTS",
-					"Version" : "18.16.1"
 				},
 				{
 					"PackageIdentifier" : "writage.writage",
