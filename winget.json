@@ -1,6 +1,6 @@
 {
 	"$schema" : "https://aka.ms/winget-packages.schema.2.0.json",
-	"CreationDate" : "2023-07-24T13:44:36.049-00:00",
+	"CreationDate" : "2023-07-26T20:10:33.340-00:00",
 	"Sources" : 
 	[
 		{
@@ -48,7 +48,7 @@
 				},
 				{
 					"PackageIdentifier" : "Dropbox.Dropbox",
-					"Version" : "178.4.4811"
+					"Version" : "179.4.4917"
 				},
 				{
 					"PackageIdentifier" : "Telerik.Fiddler.Classic",
@@ -257,6 +257,10 @@
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
 					"Version" : "1.80.1"
+				},
+				{
+					"PackageIdentifier" : "Google.EarthPro",
+					"Version" : "7.3.6.9345"
 				},
 				{
 					"PackageIdentifier" : "lencx.ChatGPT",
