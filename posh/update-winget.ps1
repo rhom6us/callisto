@@ -1,72 +1,39 @@
 ﻿param (
-[string] $remote='git@github.com:rhom6us/callisto.git',
-#[Parameter(Mandatory)]
-[string] $repo=[System.IO.Path]::Combine([System.IO.Path]::GetTempPath(), 'callisto'),
-[switch] $includeVersions,
-[switch] $deleteRepoAfter
+    [Parameter(Mandatory)] [string] $RepoUrl,
+    [string] $TempDirForRepo = (Join-Path $env:TEMP 'update-winget'),
+    [switch] $IncludeVersions,
+    [switch] $DeleteRepoAfterward
 )
 
+ssh-agent -s
 
 
-
-
-
-function Get-RepoUrls {
-    [CmdletBinding(DefaultParameterSetName = 'Path')]
-    param(
-        [Parameter(ValueFromPipeline, ParameterSetName = "local")] [string] $Path,
-        [Parameter(ValueFromPipeline, ParameterSetName = "remote")] [string] $Url
-    )
-}
-function Get-RepoUrl([Parameter(ValueFromPipeline)] [string] $gitpath) {
-    #$r = git remote -v
-    $r = $gitpath | Select-String -Pattern "(https:\/\/|git@)(?<git>.*)\.git"
-    if ($r.Matches.Length -gt 0) {
-        $t = "https://" + ($r.Matches[0].Groups |
-            Where-Object { $_.Name -eq "git" }).Value.Replace(":", "/")
-        #Write-Host "gh: openning ",$t,"..." -ForegroundColor "green"
-        return $t
-    }
-    else {
-        Write-Host "Please use the ""git@...git"" format url." -ForegroundColor "red"
-    }
-}
-
-
-
-
-
-
-if ([System.IO.Directory]::Exists([System.IO.Path]::Combine($repo, '.git'))) {
-    $a = git -C $repo remote -v | Get-RepoUrl
-    $b = $remote | Get-RepoUrl
-    if ($a -ne $b) {
-        Write-Host "wtf mate" -ForegroundColor Red
-        exit 1
-    }
-    git -C $repo pull
+if (Join-Path $TempDirForRepo '.git' | Test-Path) {
+    git -C $TempDirForRepo pull
 }
 else {
-    git clone -b winget --single-branch $remote $repo 2>&1 | % { "$_" }
+    git clone -b winget --single-branch $RepoUrl $TempDirForRepo 2>&1 | % { "$_" }
 }
 
-set-location -Path $repo
+# git@github.com:rhom6us/callisto.git
 
-if ($includeVersions) {
-    winget export -o .\winget.json --include-versions
+$outfile = Join-Path $TempDirForRepo 'winget.json'
+$args = "export -o $outfile"
+if ($IncludeVersions) {
+    $args = "$args --include-versions" 
 }
-else {
-    winget export -o .\winget.json
-}
+
+#using start-process here to prevent console window from appearing when run from task scheduler
+start-process -FilePath 'winget' -NoNewWindow -Wait -ArgumentList $args
 
 #remove the date from the document so that there isn't a new git revision if nothing else changed
-(Get-Content winget.json) -replace '[^\n]*"CreationDate"[^\n]*', '' | Set-Content winget.json
+(Get-Content $outfile) -replace '[^\n]*"CreationDate"[^\n]*', '' | Set-Content $outfile
 
-git commit -a -m "New export via Windows Task Scheduler"
-git push  2>&1 | % { "$_" }
+git -C $TempDirForRepo add --all
+git -C $TempDirForRepo commit -a -m "New export via Windows Task Scheduler"
+git -C $TempDirForRepo push  2>&1 | % { "$_" }
 
 
-if ($deleteRepoAfter) {
-    Remove-Item -Recurse -Force $repo
+if ($DeleteRepoAfterward) {
+    Remove-Item -Recurse -Force $TempDirForRepo
 }
-
