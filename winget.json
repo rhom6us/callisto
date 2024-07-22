@@ -7,300 +7,226 @@
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "Docker.DockerDesktop",
-					"Version" : "4.32.0"
+					"PackageIdentifier" : "Docker.DockerDesktop"
 				},
 				{
-					"PackageIdentifier" : "Git.Git",
-					"Version" : "2.45.2"
+					"PackageIdentifier" : "Git.Git"
 				},
 				{
-					"PackageIdentifier" : "CrystalRich.LockHunter",
-					"Version" : "3.4.3.146"
+					"PackageIdentifier" : "CrystalRich.LockHunter"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "24.126.0623.0001"
+					"PackageIdentifier" : "Microsoft.OneDrive"
 				},
 				{
-					"PackageIdentifier" : "SublimeHQ.SublimeText.4",
-					"Version" : "Unknown"
+					"PackageIdentifier" : "SublimeHQ.SublimeText.4"
 				},
 				{
-					"PackageIdentifier" : "marha.VcXsrv",
-					"Version" : "1.20.14.0"
+					"PackageIdentifier" : "marha.VcXsrv"
 				},
 				{
-					"PackageIdentifier" : "RARLab.WinRAR",
-					"Version" : "5.50.0"
+					"PackageIdentifier" : "RARLab.WinRAR"
 				},
 				{
-					"PackageIdentifier" : "JLC.EasyEDA",
-					"Version" : "6.5.37"
+					"PackageIdentifier" : "JLC.EasyEDA"
 				},
 				{
-					"PackageIdentifier" : "7zip.7zip",
-					"Version" : "23.01.00.0"
+					"PackageIdentifier" : "7zip.7zip"
 				},
 				{
-					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment",
-					"Version" : "8.0.3610.9"
+					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment"
 				},
 				{
-					"PackageIdentifier" : "Google.EarthPro",
-					"Version" : "7.3.6.9796"
+					"PackageIdentifier" : "Google.EarthPro"
 				},
 				{
-					"PackageIdentifier" : "PuTTY.PuTTY",
-					"Version" : "0.78.0.0"
+					"PackageIdentifier" : "PuTTY.PuTTY"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019",
-					"Version" : "15.0.2000.5"
+					"PackageIdentifier" : "Microsoft.CLRTypesSQLServer.2019"
 				},
 				{
-					"PackageIdentifier" : "WiresharkFoundation.Wireshark",
-					"Version" : "4.0.6.0"
+					"PackageIdentifier" : "WiresharkFoundation.Wireshark"
 				},
 				{
-					"PackageIdentifier" : "Oracle.JDK.17",
-					"Version" : "17.0.7.0"
+					"PackageIdentifier" : "Oracle.JDK.17"
 				},
 				{
-					"PackageIdentifier" : "MongoDB.Compass.Full",
-					"Version" : "1.38.2.0"
+					"PackageIdentifier" : "MongoDB.Compass.Full"
 				},
 				{
-					"PackageIdentifier" : "Google.GoogleDrive",
-					"Version" : "93.0.1.0"
+					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
-					"PackageIdentifier" : "LINQPad.LINQPad.7",
-					"Version" : "7.7.15"
+					"PackageIdentifier" : "LINQPad.LINQPad.7"
 				},
 				{
-					"PackageIdentifier" : "Nilesoft.Shell",
-					"Version" : "1.8.1"
+					"PackageIdentifier" : "Nilesoft.Shell"
 				},
 				{
-					"PackageIdentifier" : "voidtools.Everything",
-					"Version" : "1.4.1.1024"
+					"PackageIdentifier" : "voidtools.Everything"
 				},
 				{
-					"PackageIdentifier" : "SlackTechnologies.Slack",
-					"Version" : "4.32.122"
+					"PackageIdentifier" : "SlackTechnologies.Slack"
 				},
 				{
-					"PackageIdentifier" : "gerardog.gsudo",
-					"Version" : "2.0.9"
+					"PackageIdentifier" : "gerardog.gsudo"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.90.0"
+					"PackageIdentifier" : "Microsoft.VisualStudioCode"
 				},
 				{
-					"PackageIdentifier" : "lencx.ChatGPT",
-					"Version" : "1.0.0"
+					"PackageIdentifier" : "lencx.ChatGPT"
 				},
 				{
-					"PackageIdentifier" : "Dropbox.Dropbox",
-					"Version" : "203.4.4857"
+					"PackageIdentifier" : "Dropbox.Dropbox"
 				},
 				{
-					"PackageIdentifier" : "GnuPG.GnuPG",
-					"Version" : "2.4.0"
+					"PackageIdentifier" : "GnuPG.GnuPG"
 				},
 				{
-					"PackageIdentifier" : "GnuPG.Gpg4win",
-					"Version" : "4.1.0"
+					"PackageIdentifier" : "GnuPG.Gpg4win"
 				},
 				{
-					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Full",
-					"Version" : "17.5.2"
+					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Full"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "126.0.2592.113"
+					"PackageIdentifier" : "Microsoft.Edge"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "126.0.2592.113"
+					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime"
 				},
 				{
-					"PackageIdentifier" : "OBSProject.OBSStudio",
-					"Version" : "29.1.3"
+					"PackageIdentifier" : "OBSProject.OBSStudio"
 				},
 				{
-					"PackageIdentifier" : "chrisant996.Clink",
-					"Version" : "1.6.3"
+					"PackageIdentifier" : "chrisant996.Clink"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Enterprise",
-					"Version" : "17.6.4"
+					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Enterprise"
 				},
 				{
-					"PackageIdentifier" : "SearchDeflector.SearchDeflector",
-					"Version" : "1.3.2"
+					"PackageIdentifier" : "SearchDeflector.SearchDeflector"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
-					"Version" : "12.0.40664.0"
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.8",
-					"Version" : "8.0.303"
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
 				},
 				{
-					"PackageIdentifier" : "jasongin.nvs",
-					"Version" : "1.7.0"
+					"PackageIdentifier" : "jasongin.nvs"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
-					"Version" : "11.0.61030.0"
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7",
-					"Version" : "7.0.20"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.36.32532.0"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86"
 				},
 				{
-					"PackageIdentifier" : "JLC.EasyEDA.Pro",
-					"Version" : "2.0.35"
+					"PackageIdentifier" : "JLC.EasyEDA.Pro"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.4.2.0"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
-					"PackageIdentifier" : "LINQPad.LINQPad.5",
-					"Version" : "5.47.0"
+					"PackageIdentifier" : "LINQPad.LINQPad.5"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64",
-					"Version" : "14.36.32532.0"
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsADK",
-					"Version" : "10.1.19041.1"
+					"PackageIdentifier" : "Microsoft.WindowsADK"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86",
-					"Version" : "12.0.40664.0"
+					"PackageIdentifier" : "Microsoft.VCRedist.2013.x86"
 				},
 				{
-					"PackageIdentifier" : "GitHub.GitHubDesktop",
-					"Version" : "3.2.6.0"
+					"PackageIdentifier" : "GitHub.GitHubDesktop"
 				},
 				{
-					"PackageIdentifier" : "Python.Launcher",
-					"Version" : "> 3.12.0"
+					"PackageIdentifier" : "Python.Launcher"
 				},
 				{
-					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant",
-					"Version" : "24.3.26.8"
+					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant"
 				},
 				{
-					"PackageIdentifier" : "writage.writage",
-					"Version" : "2.12.0.0"
+					"PackageIdentifier" : "writage.writage"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerToys",
-					"Version" : "0.78.0"
+					"PackageIdentifier" : "Microsoft.PowerToys"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
-					"Version" : "11.0.61030.0"
+					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000",
-					"Version" : "10.0.22000.832"
+					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000"
 				},
 				{
-					"PackageIdentifier" : "th-ch.YouTubeMusic",
-					"Version" : "1.20.0"
+					"PackageIdentifier" : "th-ch.YouTubeMusic"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.SupportAndRecoveryAssistant",
-					"Version" : "17.1.268.15"
+					"PackageIdentifier" : "Microsoft.SupportAndRecoveryAssistant"
 				},
 				{
-					"PackageIdentifier" : "Discord.Discord",
-					"Version" : "1.0.9013"
+					"PackageIdentifier" : "Discord.Discord"
 				},
 				{
-					"PackageIdentifier" : "Telerik.Fiddler.Classic",
-					"Version" : "5.0.20211.51073"
+					"PackageIdentifier" : "Telerik.Fiddler.Classic"
 				},
 				{
-					"PackageIdentifier" : "Gyan.FFmpeg",
-					"Version" : "6.0"
+					"PackageIdentifier" : "Gyan.FFmpeg"
 				},
 				{
-					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh",
-					"Version" : "17.6.0"
+					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh"
 				},
 				{
-					"PackageIdentifier" : "Postman.Postman",
-					"Version" : "10.15.0"
+					"PackageIdentifier" : "Postman.Postman"
 				},
 				{
-					"PackageIdentifier" : "TeamSophia.SophiApp",
-					"Version" : "1.0.94"
+					"PackageIdentifier" : "TeamSophia.SophiApp"
 				},
 				{
-					"PackageIdentifier" : "WinDirStat.WinDirStat",
-					"Version" : "Unknown"
+					"PackageIdentifier" : "WinDirStat.WinDirStat"
 				},
 				{
-					"PackageIdentifier" : "cURL.cURL",
-					"Version" : "8.1.2"
+					"PackageIdentifier" : "cURL.cURL"
 				},
 				{
-					"PackageIdentifier" : "ElectronCommunity.ElectronFiddle",
-					"Version" : "0.32.9"
+					"PackageIdentifier" : "ElectronCommunity.ElectronFiddle"
 				},
 				{
-					"PackageIdentifier" : "pnpm.pnpm",
-					"Version" : "8.6.6"
+					"PackageIdentifier" : "pnpm.pnpm"
 				},
 				{
-					"PackageIdentifier" : "Python.Python.3.12",
-					"Version" : "< 3.12.0"
+					"PackageIdentifier" : "Python.Python.3.12"
 				},
 				{
-					"PackageIdentifier" : "Python.Python.3.9",
-					"Version" : "3.9.13"
+					"PackageIdentifier" : "Python.Python.3.9"
 				},
 				{
-					"PackageIdentifier" : "Canonical.Ubuntu.2204",
-					"Version" : "2204.2.33.0"
+					"PackageIdentifier" : "Canonical.Ubuntu.2204"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.AppInstaller",
-					"Version" : "1.23.1911.0"
+					"PackageIdentifier" : "Microsoft.AppInstaller"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
-					"Version" : "7.2208.15002.0"
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
-					"Version" : "8.2310.30001.0"
+					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14",
-					"Version" : "14.0.33728.0"
+					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1600.561.0"
+					"PackageIdentifier" : "Microsoft.DevHome"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.17.11461.0"
+					"PackageIdentifier" : "Microsoft.WindowsTerminal"
 				}
 			],
 			"SourceDetails" : 
@@ -315,20 +241,16 @@
 			"Packages" : 
 			[
 				{
-					"PackageIdentifier" : "XPDM1ZW6815MQM",
-					"Version" : "3.0.20"
+					"PackageIdentifier" : "XPDM1ZW6815MQM"
 				},
 				{
-					"PackageIdentifier" : "9NCTJ2CQWXV0",
-					"Version" : "17.0.0.0"
+					"PackageIdentifier" : "9NCTJ2CQWXV0"
 				},
 				{
-					"PackageIdentifier" : "9P7KNL5RWT25",
-					"Version" : "2023.6.1.0"
+					"PackageIdentifier" : "9P7KNL5RWT25"
 				},
 				{
-					"PackageIdentifier" : "9N4TL5DXC6C0",
-					"Version" : "2023.12.0.0"
+					"PackageIdentifier" : "9N4TL5DXC6C0"
 				}
 			],
 			"SourceDetails" : 
