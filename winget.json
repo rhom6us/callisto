@@ -163,12 +163,12 @@
 					"Version" : "7.0.20"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
-					"Version" : "14.40.33810.0"
-				},
-				{
 					"PackageIdentifier" : "JLC.EasyEDA.Pro",
 					"Version" : "2.0.35"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
+					"Version" : "14.40.33810.0"
 				},
 				{
 					"PackageIdentifier" : "LINQPad.LINQPad.5",
