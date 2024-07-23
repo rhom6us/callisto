@@ -136,7 +136,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudio.2022.Enterprise",
-					"Version" : "17.6.4"
+					"Version" : "17.10.4"
 				},
 				{
 					"PackageIdentifier" : "SearchDeflector.SearchDeflector",
