@@ -1,5 +1,5 @@
-﻿param (
-    [Parameter(Mandatory)] [string] $RepoUrl,
+param (
+    [Parameter(Mandatory)] [string] $RepoUrl, # git@github.com:rhom6us/callisto.git
     [string] $TempDirForRepo = (Join-Path $env:TEMP 'update-winget'),
     [switch] $IncludeVersions,
     [switch] $DeleteRepoAfterward
@@ -12,10 +12,10 @@ if (Join-Path $TempDirForRepo '.git' | Test-Path) {
     git -C $TempDirForRepo pull
 }
 else {
-    git clone -b winget --single-branch $RepoUrl $TempDirForRepo 2>&1 | % { "$_" }
+    git clone -b winget --single-branch $RepoUrl $TempDirForRepo
 }
 
-# git@github.com:rhom6us/callisto.git
+
 
 $outfile = Join-Path $TempDirForRepo 'winget.json'
 $args = "export -o $outfile"
@@ -31,8 +31,7 @@ start-process -FilePath 'winget' -NoNewWindow -Wait -ArgumentList $args
 
 git -C $TempDirForRepo add --all
 git -C $TempDirForRepo commit -a -m "New export via Windows Task Scheduler"
-git -C $TempDirForRepo push  2>&1 | % { "$_" }
-
+git -C $TempDirForRepo push
 
 if ($DeleteRepoAfterward) {
     Remove-Item -Recurse -Force $TempDirForRepo
