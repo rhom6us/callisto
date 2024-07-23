@@ -247,6 +247,10 @@
 					"Version" : "10.15.0"
 				},
 				{
+					"PackageIdentifier" : "RaspberryPiFoundation.RaspberryPiImager",
+					"Version" : "1.8.5"
+				},
+				{
 					"PackageIdentifier" : "TeamSophia.SophiApp",
 					"Version" : "1.0.94"
 				},
@@ -264,7 +268,7 @@
 				},
 				{
 					"PackageIdentifier" : "pnpm.pnpm",
-					"Version" : "8.6.6"
+					"Version" : "9.6.0"
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.12",
