@@ -20,7 +20,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "24.126.0623.0001"
+					"Version" : "24.166.0818.0003"
 				},
 				{
 					"PackageIdentifier" : "SublimeHQ.SublimeText.4",
@@ -40,7 +40,7 @@
 				},
 				{
 					"PackageIdentifier" : "7zip.7zip",
-					"Version" : "23.01.00.0"
+					"Version" : "24.08.00.0"
 				},
 				{
 					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment",
@@ -49,6 +49,10 @@
 				{
 					"PackageIdentifier" : "Google.EarthPro",
 					"Version" : "7.3.6.9796"
+				},
+				{
+					"PackageIdentifier" : "PTRTECH.UVtools",
+					"Version" : "4.4.1"
 				},
 				{
 					"PackageIdentifier" : "PuTTY.PuTTY",
@@ -72,7 +76,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive",
-					"Version" : "93.0.1.0"
+					"Version" : "96.0.0.0"
 				},
 				{
 					"PackageIdentifier" : "LINQPad.LINQPad.7",
@@ -96,7 +100,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.90.0"
+					"Version" : "1.92.2"
 				},
 				{
 					"PackageIdentifier" : "lencx.ChatGPT",
@@ -104,7 +108,7 @@
 				},
 				{
 					"PackageIdentifier" : "Dropbox.Dropbox",
-					"Version" : "203.4.4857"
+					"Version" : "206.4.6506"
 				},
 				{
 					"PackageIdentifier" : "GnuPG.GnuPG",
@@ -116,19 +120,19 @@
 				},
 				{
 					"PackageIdentifier" : "CodecGuide.K-LiteCodecPack.Full",
-					"Version" : "17.5.2"
+					"Version" : "18.5.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "126.0.2592.113"
+					"Version" : "128.0.2739.63"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "126.0.2592.113"
+					"Version" : "128.0.2739.63"
 				},
 				{
 					"PackageIdentifier" : "OBSProject.OBSStudio",
-					"Version" : "29.1.3"
+					"Version" : "30.2.3"
 				},
 				{
 					"PackageIdentifier" : "chrisant996.Clink",
@@ -139,16 +143,16 @@
 					"Version" : "17.10.4"
 				},
 				{
+					"PackageIdentifier" : "qBittorrent.qBittorrent",
+					"Version" : "4.6.6"
+				},
+				{
 					"PackageIdentifier" : "SearchDeflector.SearchDeflector",
 					"Version" : "1.3.2"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64",
 					"Version" : "12.0.40664.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.8",
-					"Version" : "8.0.303"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86",
@@ -175,12 +179,12 @@
 					"Version" : "14.40.33810.0"
 				},
 				{
-					"PackageIdentifier" : "LINQPad.LINQPad.5",
-					"Version" : "5.47.0"
+					"PackageIdentifier" : "Microsoft.PowerShell",
+					"Version" : "7.4.5.0"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell",
-					"Version" : "7.4.3.0"
+					"PackageIdentifier" : "LINQPad.LINQPad.5",
+					"Version" : "5.47.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsADK",
@@ -200,7 +204,7 @@
 				},
 				{
 					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant",
-					"Version" : "24.3.26.8"
+					"Version" : "24.4.32.8"
 				},
 				{
 					"PackageIdentifier" : "writage.writage",
@@ -215,12 +219,16 @@
 					"Version" : "11.0.61030.0"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8",
+					"Version" : "8.0.304"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000",
 					"Version" : "10.0.22000.832"
 				},
 				{
 					"PackageIdentifier" : "th-ch.YouTubeMusic",
-					"Version" : "1.20.0"
+					"Version" : "3.5.1"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.SupportAndRecoveryAssistant",
@@ -236,7 +244,7 @@
 				},
 				{
 					"PackageIdentifier" : "Gyan.FFmpeg",
-					"Version" : "6.0"
+					"Version" : "7.0.2"
 				},
 				{
 					"PackageIdentifier" : "JanDeDobbeleer.OhMyPosh",
@@ -300,11 +308,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1600.561.0"
+					"Version" : "0.1700.597.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
-					"Version" : "1.17.11461.0"
+					"Version" : "1.20.11781.0"
 				}
 			],
 			"SourceDetails" : 
