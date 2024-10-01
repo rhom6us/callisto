@@ -20,7 +20,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "24.166.0818.0003"
+					"Version" : "24.180.0905.0001"
+				},
+				{
+					"PackageIdentifier" : "Prusa3D.PrusaSlicer",
+					"Version" : "2.8.0"
 				},
 				{
 					"PackageIdentifier" : "SublimeHQ.SublimeText.4",
@@ -76,7 +80,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive",
-					"Version" : "96.0.0.0"
+					"Version" : "97.0.1.0"
 				},
 				{
 					"PackageIdentifier" : "LINQPad.LINQPad.7",
@@ -100,7 +104,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VisualStudioCode",
-					"Version" : "1.92.2"
+					"Version" : "1.93.1"
 				},
 				{
 					"PackageIdentifier" : "lencx.ChatGPT",
@@ -108,7 +112,7 @@
 				},
 				{
 					"PackageIdentifier" : "Dropbox.Dropbox",
-					"Version" : "206.4.6506"
+					"Version" : "208.4.5824"
 				},
 				{
 					"PackageIdentifier" : "GnuPG.GnuPG",
@@ -124,11 +128,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "128.0.2739.63"
+					"Version" : "129.0.2792.65"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "128.0.2739.63"
+					"Version" : "129.0.2792.65"
 				},
 				{
 					"PackageIdentifier" : "OBSProject.OBSStudio",
@@ -167,6 +171,10 @@
 					"Version" : "2.1.64"
 				},
 				{
+					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant",
+					"Version" : "24.5.40.11"
+				},
+				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x86",
 					"Version" : "14.40.33810.0"
 				},
@@ -201,10 +209,6 @@
 				{
 					"PackageIdentifier" : "Python.Launcher",
 					"Version" : "> 3.12.0"
-				},
-				{
-					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant",
-					"Version" : "24.4.32.8"
 				},
 				{
 					"PackageIdentifier" : "writage.writage",
@@ -296,7 +300,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.7",
-					"Version" : "7.2208.15002.0"
+					"Version" : "7.2409.9001.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.UI.Xaml.2.8",
@@ -308,7 +312,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1700.597.0"
+					"Version" : "0.1800.625.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
