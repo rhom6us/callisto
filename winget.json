@@ -112,7 +112,7 @@
 				},
 				{
 					"PackageIdentifier" : "Dropbox.Dropbox",
-					"Version" : "208.4.5824"
+					"Version" : "209.4.3661"
 				},
 				{
 					"PackageIdentifier" : "GnuPG.GnuPG",
@@ -128,11 +128,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "129.0.2792.65"
+					"Version" : "129.0.2792.79"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "129.0.2792.65"
+					"Version" : "129.0.2792.79"
 				},
 				{
 					"PackageIdentifier" : "OBSProject.OBSStudio",
@@ -169,6 +169,10 @@
 				{
 					"PackageIdentifier" : "JLC.EasyEDA.Pro",
 					"Version" : "2.1.64"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8",
+					"Version" : "< 8.0.400"
 				},
 				{
 					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant",
@@ -221,10 +225,6 @@
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64",
 					"Version" : "11.0.61030.0"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.8",
-					"Version" : "8.0.304"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000",
