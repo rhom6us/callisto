@@ -20,7 +20,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "24.180.0905.0001"
+					"Version" : "24.181.0908.0001"
 				},
 				{
 					"PackageIdentifier" : "Prusa3D.PrusaSlicer",
@@ -80,7 +80,7 @@
 				},
 				{
 					"PackageIdentifier" : "Google.GoogleDrive",
-					"Version" : "97.0.1.0"
+					"Version" : "98.0.0.0"
 				},
 				{
 					"PackageIdentifier" : "LINQPad.LINQPad.7",
@@ -312,7 +312,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DevHome",
-					"Version" : "0.1800.625.0"
+					"Version" : "0.1800.640.0"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal",
