@@ -1,5 +1,6 @@
 ﻿param (
     [Parameter(Mandatory)] [string] $RepoUrl, # git@github.com:rhom6us/callisto.git
+    [string] $Branch = 'winget',
     [string] $TempDirForRepo = (Join-Path $env:TEMP 'update-winget'),
     [switch] $IncludeVersions,
     [switch] $DeleteRepoAfterward
@@ -12,7 +13,7 @@ if (Join-Path $TempDirForRepo '.git' | Test-Path) {
     git -C $TempDirForRepo pull
 }
 else {
-    git clone -b winget --single-branch $RepoUrl $TempDirForRepo
+    git clone -b $Branch --single-branch $RepoUrl $TempDirForRepo
 }
 
 
