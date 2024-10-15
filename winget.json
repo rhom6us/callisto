@@ -20,7 +20,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.OneDrive",
-					"Version" : "24.181.0908.0001"
+					"Version" : "24.186.0915.0004"
 				},
 				{
 					"PackageIdentifier" : "Prusa3D.PrusaSlicer",
@@ -128,11 +128,11 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.Edge",
-					"Version" : "129.0.2792.79"
+					"Version" : "129.0.2792.89"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.EdgeWebView2Runtime",
-					"Version" : "129.0.2792.79"
+					"Version" : "129.0.2792.89"
 				},
 				{
 					"PackageIdentifier" : "OBSProject.OBSStudio",
@@ -172,7 +172,7 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.SDK.8",
-					"Version" : "< 8.0.400"
+					"Version" : "8.0.306"
 				},
 				{
 					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant",
@@ -231,12 +231,12 @@
 					"Version" : "10.0.22000.832"
 				},
 				{
-					"PackageIdentifier" : "th-ch.YouTubeMusic",
-					"Version" : "3.5.1"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.SupportAndRecoveryAssistant",
 					"Version" : "17.1.268.15"
+				},
+				{
+					"PackageIdentifier" : "Anysphere.Cursor",
+					"Version" : "0.42.2"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord",
