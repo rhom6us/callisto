@@ -1,14 +1,14 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
+    "actions":
     [
         {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "copy",
                 "singleLine": false
@@ -27,7 +27,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
+            "command":
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -48,28 +48,28 @@
     "copyOnSelect": true,
     "defaultProfile": "{acbafd15-cbbb-5bb3-8a61-bed446ff4b83}",
     "launchMode": "default",
-    "newTabMenu": 
+    "newTabMenu":
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
+    "profiles":
     {
-        "defaults": 
+        "defaults":
         {
             "adjustIndistinguishableColors": "always",
-            "backgroundImageOpacity": 0.65,
+            "backgroundImageOpacity": 0.4,
             "experimental.retroTerminalEffect": false,
-            "font": 
+            "font":
             {
                 "face": "MesloLGM Nerd Font"
             },
             "intenseTextStyle": "all",
-            "opacity": 63,
-            "useAcrylic": true
+            "opacity": 85,
+            "useAcrylic": false
         },
-        "list": 
+        "list":
         [
             {
                 "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\windows\\4835004.jpg",
@@ -79,43 +79,22 @@
                 "name": "Command Prompt"
             },
             {
-                "altGrAliasing": true,
-                "antialiasingMode": "grayscale",
                 "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\windows\\3936988.jpg",
-                "backgroundImageOpacity": 0.5,
-                "closeOnExit": "automatic",
                 "colorScheme": "Campbell",
                 "commandline": "gsudo %SystemRoot%\\System32\\cmd.exe",
-                "cursorShape": "bar",
                 "guid": "{7f325990-59ac-45fa-8fe2-64f52fb75070}",
                 "hidden": false,
-                "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-                "name": "Command Prompt (sudo)",
-                "opacity": 51,
-                "padding": "8, 8, 8, 8",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "useAcrylic": true
+                "name": "Command Prompt (sudo)"
             },
             {
-                "adjustIndistinguishableColors": "always",
-                "altGrAliasing": true,
-                "antialiasingMode": "grayscale",
-                "closeOnExit": "automatic",
                 "colorScheme": "Campbell Powershell",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
-                "cursorShape": "bar",
                 "elevate": true,
                 "guid": "{5fc9728c-7f1c-433a-82ec-47e6e2c938ea}",
                 "hidden": false,
-                "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
-                "name": "Command Prompt (elevated)",
-                "padding": "8, 8, 8, 8",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "useAcrylic": false
+                "name": "Command Prompt (elevated)"
             },
             {
                 "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\powershell\\5319484.png",
@@ -125,29 +104,13 @@
                 "name": "Windows PowerShell"
             },
             {
-                "altGrAliasing": true,
-                "antialiasingMode": "grayscale",
                 "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\powershell\\3415548.png",
-                "closeOnExit": "automatic",
                 "colorScheme": "Campbell Powershell",
                 "commandline": "sudo pwsh",
-                "cursorShape": "bar",
-                "elevate": false,
-                "experimental.retroTerminalEffect": false,
-                "font": 
-                {
-                    "face": "Cascadia Mono",
-                    "size": 12
-                },
                 "guid": "{8d6317e9-4184-4c06-a6f0-bce68e7fdbd0}",
                 "hidden": false,
-                "historySize": 9001,
                 "icon": "ms-appx:///ProfileIcons/{61c54bbd-c2c6-5271-96e7-009a87ff44bf}.png",
-                "name": "Windows PowerShell (sudo)",
-                "padding": "8, 8, 8, 8",
-                "snapOnInput": true,
-                "startingDirectory": "%USERPROFILE%",
-                "useAcrylic": false
+                "name": "Windows PowerShell (sudo)"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -157,7 +120,6 @@
             },
             {
                 "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\linux\\linux_terminal_wallpaper.png",
-                "backgroundImageStretchMode": "fill",
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "name": "Ubuntu",
@@ -226,9 +188,7 @@
                 "guid": "{acbafd15-cbbb-5bb3-8a61-bed446ff4b83}",
                 "hidden": false,
                 "name": "Ubuntu 24.04 LTS",
-                "opacity": 18,
                 "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc",
-                "useAcrylic": true
             },
             {
                 "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\linux\\HD wallpaper_ linux tux microsoft windows Technology Linux HD Art.jpg",
