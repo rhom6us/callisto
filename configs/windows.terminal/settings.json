@@ -67,7 +67,7 @@
             },
             "intenseTextStyle": "all",
             "opacity": 85,
-            "useAcrylic": false
+            "useAcrylic": true
         },
         "list":
         [
