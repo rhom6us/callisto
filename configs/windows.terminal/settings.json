@@ -72,14 +72,14 @@
         "list":
         [
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\windows\\4835004.jpg",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\windows\\4835004.jpg",
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
                 "name": "Command Prompt"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\windows\\3936988.jpg",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\windows\\3936988.jpg",
                 "colorScheme": "Campbell",
                 "commandline": "gsudo %SystemRoot%\\System32\\cmd.exe",
                 "guid": "{7f325990-59ac-45fa-8fe2-64f52fb75070}",
@@ -97,14 +97,14 @@
                 "name": "Command Prompt (elevated)"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\powershell\\5319484.png",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\powershell\\5319484.png",
                 "commandline": "pwsh",
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\powershell\\3415548.png",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\powershell\\3415548.png",
                 "colorScheme": "Campbell Powershell",
                 "commandline": "sudo pwsh",
                 "guid": "{8d6317e9-4184-4c06-a6f0-bce68e7fdbd0}",
@@ -119,14 +119,14 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\linux\\linux_terminal_wallpaper.png",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\linux\\linux_terminal_wallpaper.png",
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\linux\\vfz1blyegd231.png",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\linux\\vfz1blyegd231.png",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
                 "hidden": false,
                 "name": "Ubuntu",
@@ -139,35 +139,35 @@
                 "source": "Git"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\visual studio\\Visual Studio   Community Wallpapers.jpg",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\visual studio\\Visual Studio   Community Wallpapers.jpg",
                 "guid": "{8e4291cd-ed07-5631-b5b9-4e5637d251be}",
                 "hidden": false,
                 "name": "Developer Command Prompt for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\visual studio\\Visual Studio   Community Wallpapers.png",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\visual studio\\Visual Studio   Community Wallpapers.png",
                 "guid": "{8c07cb51-ba98-5a28-9094-3b34928490f9}",
                 "hidden": false,
                 "name": "Developer PowerShell for VS 2022",
                 "source": "Windows.Terminal.VisualStudio"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\csharp\\d9gwbyw-db279ea5-c49e-4535-ae92-d224c6f2eff4.png",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\csharp\\d9gwbyw-db279ea5-c49e-4535-ae92-d224c6f2eff4.png",
                 "commandline": "csharprepl",
                 "guid": "{2e5e2e28-bef0-4aca-8f0c-874e362f9a68}",
                 "hidden": false,
                 "name": "csharp"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\nodejs\\3909234.jpg",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\nodejs\\3909234.jpg",
                 "commandline": "node",
                 "guid": "{e8fe0d7a-4d19-4a28-9db9-c59554fd7852}",
                 "hidden": false,
                 "name": "Node"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\python\\wallpapersden.com_python-hack-the-world_1920x1080.jpg",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\python\\wallpapersden.com_python-hack-the-world_1920x1080.jpg",
                 "commandline": "python",
                 "guid": "{b93f171e-e171-424e-ae71-b80aea952fe9}",
                 "hidden": false,
@@ -180,7 +180,7 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\linux\\vfz1blyegd231.png",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\linux\\vfz1blyegd231.png",
                 "backgroundImageStretchMode": "uniformToFill",
                 "colorScheme": "Ubuntu-24.04-ColorScheme",
                 "cursorShape": "emptyBox",
@@ -191,7 +191,7 @@
                 "source": "CanonicalGroupLimited.Ubuntu24.04LTS_79rhkp1fndgsc"
             },
             {
-                "backgroundImage": "C:\\dev\\callisto\\static\\wallpaper\\linux\\HD wallpaper_ linux tux microsoft windows Technology Linux HD Art.jpg",
+                "backgroundImage": "%CALLISTO_HOME%\\static\\wallpaper\\linux\\HD wallpaper_ linux tux microsoft windows Technology Linux HD Art.jpg",
                 "guid": "{963ff2f7-6aed-5ce3-9d91-90d99571f53a}",
                 "hidden": false,
                 "name": "Ubuntu-24.04",
