@@ -1,14 +1,14 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions":
+    "actions": 
     [
         {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "copy",
                 "singleLine": false
@@ -27,7 +27,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command":
+            "command": 
             {
                 "action": "splitPane",
                 "split": "auto",
@@ -48,20 +48,22 @@
     "copyOnSelect": true,
     "defaultProfile": "{acbafd15-cbbb-5bb3-8a61-bed446ff4b83}",
     "launchMode": "default",
-    "newTabMenu":
+    "newTabMenu": 
     [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles":
+    "profiles": 
     {
-        "defaults":
+        "defaults": 
         {
             "adjustIndistinguishableColors": "always",
+            "backgroundImageAlignment": "topLeft",
             "backgroundImageOpacity": 0.4,
+            "backgroundImageStretchMode": "uniformToFill",
             "experimental.retroTerminalEffect": false,
-            "font":
+            "font": 
             {
                 "face": "MesloLGM Nerd Font"
             },
@@ -69,13 +71,14 @@
             "opacity": 85,
             "useAcrylic": true
         },
-        "list":
+        "list": 
         [
             {
                 "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/windows/4835004.jpg",
                 "commandline": "cmd",
                 "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
                 "hidden": false,
+                "icon": "%CALLISTO_HOME%\\static\\icons\\cmd\\gray@32px.png",
                 "name": "Command Prompt"
             },
             {
@@ -84,7 +87,7 @@
                 "commandline": "sudo cmd",
                 "guid": "{7f325990-59ac-45fa-8fe2-64f52fb75070}",
                 "hidden": false,
-                "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
+                "icon": "%CALLISTO_HOME%\\static\\icons\\cmd\\red@32px.png",
                 "name": "Command Prompt (sudo)"
             },
             {
@@ -92,7 +95,7 @@
                 "commandline": "cmd",
                 "elevate": true,
                 "guid": "{5fc9728c-7f1c-433a-82ec-47e6e2c938ea}",
-                "hidden": false,
+                "hidden": true,
                 "icon": "ms-appx:///ProfileIcons/{0caa0dad-35be-5f56-a8ff-afceeeaa6101}.png",
                 "name": "Command Prompt (elevated)"
             },
@@ -113,10 +116,10 @@
                 "name": "Windows PowerShell (sudo)"
             },
             {
+                "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/azure/azure.jpg",
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
                 "hidden": false,
                 "name": "Azure Cloud Shell",
-                "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/azure/azure.jpg",
                 "source": "Windows.Terminal.Azure"
             },
             {
