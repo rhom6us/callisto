@@ -201,7 +201,7 @@
         ]
     },
     "schemes": [],
-    "tabSwitcherMode": "mru",
+    "tabSwitcherMode": "inOrder",
     "tabWidthMode": "titleLength",
     "themes": [],
     "useAcrylicInTabRow": true,
