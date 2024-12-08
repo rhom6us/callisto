@@ -112,7 +112,13 @@
 					"PackageIdentifier" : "OBSProject.OBSStudio"
 				},
 				{
+					"PackageIdentifier" : "Opera.Opera"
+				},
+				{
 					"PackageIdentifier" : "AivarAnnamaa.Thonny"
+				},
+				{
+					"PackageIdentifier" : "Vivaldi.Vivaldi"
 				},
 				{
 					"PackageIdentifier" : "chrisant996.Clink"
