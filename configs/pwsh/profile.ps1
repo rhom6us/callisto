@@ -11,3 +11,5 @@ Register-ArgumentCompleter -Native -CommandName rush -ScriptBlock {
       [System.Management.Automation.CompletionResult]::new($_, $_, 'ParameterValue', $_)
     }
  }
+
+ Invoke-Expression -Command $(gh completion -s powershell | Out-String)
