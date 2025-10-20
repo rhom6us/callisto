@@ -1,13 +1,15 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": [
+    "actions": 
+    [
         {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "copy",
                 "singleLine": false
             },
@@ -25,7 +27,8 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": {
+            "command": 
+            {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -43,28 +46,34 @@
     "confirmCloseAllTabs": false,
     "copyFormatting": "none",
     "copyOnSelect": true,
-    "defaultProfile": "{acbafd15-cbbb-5bb3-8a61-bed446ff4b83}",
+    "defaultProfile": "{59287883-0ab2-5e42-bcf2-bd397531ffaa}",
     "launchMode": "default",
-    "newTabMenu": [
+    "newTabMenu": 
+    [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": {
-        "defaults": {
+    "profiles": 
+    {
+        "defaults": 
+        {
             "adjustIndistinguishableColors": "always",
             "backgroundImageAlignment": "topLeft",
             "backgroundImageOpacity": 0.4,
             "backgroundImageStretchMode": "uniformToFill",
+            "cursorShape": "emptyBox",
             "experimental.retroTerminalEffect": false,
-            "font": {
+            "font": 
+            {
                 "face": "MesloLGM Nerd Font"
             },
             "intenseTextStyle": "all",
             "opacity": 85,
             "useAcrylic": true
         },
-        "list": [
+        "list": 
+        [
             {
                 "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/windows/4835004.jpg",
                 "commandline": "cmd",
@@ -72,6 +81,38 @@
                 "hidden": false,
                 "icon": "%CALLISTO_HOME%\\static\\icons\\cmd\\gray@32px.png",
                 "name": "Command Prompt"
+            },
+            {
+                "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/linux/vfz1blyegd231.png",
+                "cursorShape": "emptyBox",
+                "guid": "{59287883-0ab2-5e42-bcf2-bd397531ffaa}",
+                "hidden": false,
+                "icon": "ms-appx:///ProfileIcons/{9acb9455-ca41-5af7-950f-6bca1bc9722f}.png",
+                "name": "dev",
+                "source": "Microsoft.WSL"
+            },
+            {
+                "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/linux/wsl/wsl-ubuntu.jpg",
+                "colorScheme": "Ubuntu",
+                "commandline": "C:\\Windows\\system32\\wsl.exe -d dev --cd ~ -- /home/tom/.local/bin/claude --dangerously-skip-permissions",
+                "font": 
+                {
+                    "size": 13
+                },
+                "guid": "{c80447a1-f252-4ffd-a7c5-94d95cb38389}",
+                "hidden": false,
+                "icon": "%CALLISTO_HOME%/static/icons/claude/Claude_AI_symbol.svg.png",
+                "name": "Claude-WSL",
+                "suppressApplicationTitle": true
+            },
+            {
+                "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/claude/Claude-brain.png",
+                "commandline": "cmd /c claude --dangerously-skip-permissions",
+                "guid": "{033c57a8-a218-493f-a395-5b69b9751d6a}",
+                "hidden": false,
+                "icon": "%CALLISTO_HOME%\\static\\icons\\claude\\f06c8dd977118107909fd81a376fed319f134df8674bfc329b9dd7a4d8b01098_200.webp",
+                "name": "Claude",
+                "startingDirectory": "c:\\dev"
             },
             {
                 "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/windows/3936988.jpg",
@@ -117,20 +158,20 @@
             {
                 "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/linux/linux_terminal_wallpaper.png",
                 "guid": "{51855cb2-8cce-5362-8f54-464b92b32386}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Ubuntu",
                 "source": "CanonicalGroupLimited.Ubuntu_79rhkp1fndgsc"
             },
             {
                 "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/linux/vfz1blyegd231.png",
                 "guid": "{2c4de342-38b7-51cf-b940-2309a097f518}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl"
             },
             {
                 "guid": "{2ece5bfe-50ed-5f3a-ab87-5cd4baafed2b}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Git Bash",
                 "source": "Git"
             },
@@ -176,7 +217,7 @@
                 "source": "Windows.Terminal.PowershellCore"
             },
             {
-                "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/linux/vfz1blyegd231.png",
+                "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/linux/HD wallpaper_ linux tux microsoft windows Technology Linux HD Art.jpg",
                 "backgroundImageStretchMode": "uniformToFill",
                 "colorScheme": "Ubuntu-24.04-ColorScheme",
                 "cursorShape": "emptyBox",
@@ -189,7 +230,7 @@
             {
                 "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/linux/HD wallpaper_ linux tux microsoft windows Technology Linux HD Art.jpg",
                 "guid": "{963ff2f7-6aed-5ce3-9d91-90d99571f53a}",
-                "hidden": false,
+                "hidden": true,
                 "name": "Ubuntu-24.04",
                 "source": "Windows.Terminal.Wsl"
             }
