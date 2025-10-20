@@ -1,15 +1,13 @@
 {
     "$help": "https://aka.ms/terminal-documentation",
     "$schema": "https://aka.ms/terminal-profiles-schema",
-    "actions": 
-    [
+    "actions": [
         {
             "command": "unbound",
             "keys": "ctrl+shift+w"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "copy",
                 "singleLine": false
             },
@@ -27,8 +25,7 @@
             "keys": "ctrl+shift+f"
         },
         {
-            "command": 
-            {
+            "command": {
                 "action": "splitPane",
                 "split": "auto",
                 "splitMode": "duplicate"
@@ -48,31 +45,26 @@
     "copyOnSelect": true,
     "defaultProfile": "{acbafd15-cbbb-5bb3-8a61-bed446ff4b83}",
     "launchMode": "default",
-    "newTabMenu": 
-    [
+    "newTabMenu": [
         {
             "type": "remainingProfiles"
         }
     ],
-    "profiles": 
-    {
-        "defaults": 
-        {
+    "profiles": {
+        "defaults": {
             "adjustIndistinguishableColors": "always",
             "backgroundImageAlignment": "topLeft",
             "backgroundImageOpacity": 0.4,
             "backgroundImageStretchMode": "uniformToFill",
             "experimental.retroTerminalEffect": false,
-            "font": 
-            {
+            "font": {
                 "face": "MesloLGM Nerd Font"
             },
             "intenseTextStyle": "all",
             "opacity": 85,
             "useAcrylic": true
         },
-        "list": 
-        [
+        "list": [
             {
                 "backgroundImage": "%CALLISTO_HOME%/static/wallpaper/windows/4835004.jpg",
                 "commandline": "cmd",
