@@ -10,8 +10,12 @@ $config = [ordered]@{
 }
 
 
-function New-Link ([string]$RepoFile, [string]$ProdFile) {
-
+function New-Link {
+    [CmdletBinding(SupportsShouldProcess)]
+    param(
+        [string]$RepoFile,
+        [string]$ProdFile
+    )
 
     if (-not (Test-Path $RepoFile)) {
         if (-not (Test-Path $ProdFile)) {
@@ -19,20 +23,24 @@ function New-Link ([string]$RepoFile, [string]$ProdFile) {
             return
         }
         Write-Information "Creating source config from `"$ProdFile`""
-        Copy-Item -Path $ProdFile -Destination $RepoFile
-        git add $RepoFile
-        git commit -m "File sourced from `"$ProdFile`""
-        git push
+        if ($PSCmdlet.ShouldProcess($RepoFile, "Copy from $ProdFile")) {
+            Copy-Item -Path $ProdFile -Destination $RepoFile
+            git add $RepoFile
+            git commit -m "File sourced from `"$ProdFile`""
+            git push
+        }
     }
-
 
     if (Test-Path $ProdFile) {
         Write-Warning "`"$ProdFile`" already exists. Backing up to `"$ProdFile.bak`""
-        Move-Item -Path "$ProdFile" -Destination "$ProdFile.bak" -Force
+        if ($PSCmdlet.ShouldProcess($ProdFile, "Backup to $ProdFile.bak")) {
+            Move-Item -Path "$ProdFile" -Destination "$ProdFile.bak" -Force
+        }
     }
 
-
-    New-Item -Path "$ProdFile" -ItemType SymbolicLink -Value "$RepoFile"
+    if ($PSCmdlet.ShouldProcess($ProdFile, "Create symbolic link to $RepoFile")) {
+        New-Item -Path "$ProdFile" -ItemType SymbolicLink -Value "$RepoFile"
+    }
 }
 
 
