@@ -7,10 +7,16 @@
 			"Packages" : 
 			[
 				{
+					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
+				},
+				{
 					"PackageIdentifier" : "Docker.DockerDesktop"
 				},
 				{
 					"PackageIdentifier" : "Git.Git"
+				},
+				{
+					"PackageIdentifier" : "HermannSchinagl.LinkShellExtension"
 				},
 				{
 					"PackageIdentifier" : "CrystalRich.LockHunter"
@@ -31,16 +37,25 @@
 					"PackageIdentifier" : "RARLab.WinRAR"
 				},
 				{
+					"PackageIdentifier" : "lsd-rs.lsd"
+				},
+				{
+					"PackageIdentifier" : "sharkdp.bat"
+				},
+				{
 					"PackageIdentifier" : "JLC.EasyEDA"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.msodbcsql.17"
+				},
+				{
+					"PackageIdentifier" : "GitHub.cli"
 				},
 				{
 					"PackageIdentifier" : "7zip.7zip"
 				},
 				{
 					"PackageIdentifier" : "Oracle.JavaRuntimeEnvironment"
-				},
-				{
-					"PackageIdentifier" : "Google.EarthPro"
 				},
 				{
 					"PackageIdentifier" : "PTRTECH.UVtools"
@@ -64,13 +79,28 @@
 					"PackageIdentifier" : "Google.GoogleDrive"
 				},
 				{
+					"PackageIdentifier" : "bitwig.bitwig"
+				},
+				{
 					"PackageIdentifier" : "LINQPad.LINQPad.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.SQLServer.OLEDBDriver"
+				},
+				{
+					"PackageIdentifier" : "Google.EarthPro"
+				},
+				{
+					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
 					"PackageIdentifier" : "Nilesoft.Shell"
 				},
 				{
 					"PackageIdentifier" : "voidtools.Everything"
+				},
+				{
+					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
 				},
 				{
 					"PackageIdentifier" : "SlackTechnologies.Slack"
@@ -86,6 +116,9 @@
 				},
 				{
 					"PackageIdentifier" : "ArduinoSA.IDE.stable"
+				},
+				{
+					"PackageIdentifier" : "Google.Chrome.Beta"
 				},
 				{
 					"PackageIdentifier" : "lencx.ChatGPT"
@@ -115,10 +148,16 @@
 					"PackageIdentifier" : "Opera.Opera"
 				},
 				{
+					"PackageIdentifier" : "SoftFever.OrcaSlicer"
+				},
+				{
 					"PackageIdentifier" : "AivarAnnamaa.Thonny"
 				},
 				{
 					"PackageIdentifier" : "Vivaldi.Vivaldi"
+				},
+				{
+					"PackageIdentifier" : "akeo.ie.Zadig"
 				},
 				{
 					"PackageIdentifier" : "chrisant996.Clink"
@@ -136,13 +175,28 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2013.x64"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
+				},
+				{
+					"PackageIdentifier" : "RoyShilkrot.obs-backgroundremoval"
+				},
+				{
 					"PackageIdentifier" : "Python.Launcher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.SQLServerManagementStudio"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x86"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.8"
+				},
+				{
+					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant"
 				},
 				{
 					"PackageIdentifier" : "JLC.EasyEDA.Pro"
@@ -155,9 +209,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.3_1"
@@ -178,10 +229,10 @@
 					"PackageIdentifier" : "GitHub.GitHubDesktop"
 				},
 				{
-					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant"
+					"PackageIdentifier" : "writage.writage"
 				},
 				{
-					"PackageIdentifier" : "writage.writage"
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
@@ -190,16 +241,16 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.SupportAndRecoveryAssistant"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Anysphere.Cursor"
+				},
+				{
+					"PackageIdentifier" : "Anthropic.Claude"
 				},
 				{
 					"PackageIdentifier" : "Discord.Discord"
@@ -238,7 +289,13 @@
 					"PackageIdentifier" : "JetBrains.dotTrace"
 				},
 				{
+					"PackageIdentifier" : "Codeium.Windsurf"
+				},
+				{
 					"PackageIdentifier" : "Python.Python.3.13"
+				},
+				{
+					"PackageIdentifier" : "JetBrains.dotPeek"
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.12"
@@ -262,13 +319,7 @@
 					"PackageIdentifier" : "Microsoft.VCLibs.Desktop.14"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DevHome"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.WSL"
 				}
 			],
 			"SourceDetails" : 
@@ -293,6 +344,9 @@
 				},
 				{
 					"PackageIdentifier" : "9N4TL5DXC6C0"
+				},
+				{
+					"PackageIdentifier" : "9N1B9JWB3M35"
 				}
 			],
 			"SourceDetails" : 
@@ -304,5 +358,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.9.25200"
+	"WinGetVersion" : "1.12.350"
 }
