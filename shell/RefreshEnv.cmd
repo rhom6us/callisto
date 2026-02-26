@@ -1,4 +1,4 @@
-// https://github.com/chocolatey/choco/blob/0.10.15/src/chocolatey.resources/redirects/RefreshEnv.cmd
+@REM // https://github.com/chocolatey/choco/blob/0.10.15/src/chocolatey.resources/redirects/RefreshEnv.cmd
 
 @echo off
 ::
