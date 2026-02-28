@@ -31,6 +31,9 @@
 					"PackageIdentifier" : "SublimeHQ.SublimeText.4"
 				},
 				{
+					"PackageIdentifier" : "Typst.Typst"
+				},
+				{
 					"PackageIdentifier" : "marha.VcXsrv"
 				},
 				{
