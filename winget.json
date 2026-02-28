@@ -43,6 +43,9 @@
 					"PackageIdentifier" : "sharkdp.bat"
 				},
 				{
+					"PackageIdentifier" : "twpayne.chezmoi"
+				},
+				{
 					"PackageIdentifier" : "JLC.EasyEDA"
 				},
 				{
@@ -104,6 +107,9 @@
 				},
 				{
 					"PackageIdentifier" : "SlackTechnologies.Slack"
+				},
+				{
+					"PackageIdentifier" : "JohnMacFarlane.Pandoc"
 				},
 				{
 					"PackageIdentifier" : "gerardog.gsudo"
@@ -178,10 +184,16 @@
 					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
 				},
 				{
+					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.8"
+				},
+				{
 					"PackageIdentifier" : "RoyShilkrot.obs-backgroundremoval"
 				},
 				{
 					"PackageIdentifier" : "Python.Launcher"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.SQLServerManagementStudio"
@@ -191,9 +203,6 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.8"
 				},
 				{
 					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant"
@@ -230,9 +239,6 @@
 				},
 				{
 					"PackageIdentifier" : "writage.writage"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.PowerToys"
@@ -320,6 +326,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsTerminal"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.WSL"
 				}
 			],
 			"SourceDetails" : 
@@ -358,5 +367,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.12.350"
+	"WinGetVersion" : "1.12.460"
 }
