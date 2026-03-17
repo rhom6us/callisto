@@ -1,0 +1,1 @@
+claude --dangerously-skip-permissions --model opus --ide --effort low
