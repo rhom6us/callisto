@@ -109,6 +109,9 @@
 					"PackageIdentifier" : "voidtools.Everything"
 				},
 				{
+					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
+				},
+				{
 					"PackageIdentifier" : "SlackTechnologies.Slack"
 				},
 				{
