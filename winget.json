@@ -7,6 +7,9 @@
 			"Packages" : 
 			[
 				{
+					"PackageIdentifier" : "Anthropic.ClaudeCode"
+				},
+				{
 					"PackageIdentifier" : "BurntSushi.ripgrep.MSVC"
 				},
 				{
@@ -67,6 +70,9 @@
 					"PackageIdentifier" : "PTRTECH.UVtools"
 				},
 				{
+					"PackageIdentifier" : "Google.EarthPro"
+				},
+				{
 					"PackageIdentifier" : "PuTTY.PuTTY"
 				},
 				{
@@ -94,9 +100,6 @@
 					"PackageIdentifier" : "Microsoft.SQLServer.OLEDBDriver"
 				},
 				{
-					"PackageIdentifier" : "Google.EarthPro"
-				},
-				{
 					"PackageIdentifier" : "calibre.calibre"
 				},
 				{
@@ -104,9 +107,6 @@
 				},
 				{
 					"PackageIdentifier" : "voidtools.Everything"
-				},
-				{
-					"PackageIdentifier" : "Adobe.Acrobat.Reader.64-bit"
 				},
 				{
 					"PackageIdentifier" : "SlackTechnologies.Slack"
@@ -187,16 +187,10 @@
 					"PackageIdentifier" : "Microsoft.DotNet.SDK.8"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.8"
-				},
-				{
 					"PackageIdentifier" : "RoyShilkrot.obs-backgroundremoval"
 				},
 				{
 					"PackageIdentifier" : "Python.Launcher"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.SQLServerManagementStudio"
@@ -206,6 +200,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.7"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
 					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant"
@@ -220,9 +217,6 @@
 					"PackageIdentifier" : "jasongin.nvs"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
-				},
-				{
 					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.3_1"
 				},
 				{
@@ -230,6 +224,9 @@
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.Runtime.3_1"
+				},
+				{
+					"PackageIdentifier" : "Microsoft.VCRedist.2015+.x64"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.WindowsADK"
@@ -253,10 +250,10 @@
 					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
+					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.8"
 				},
 				{
-					"PackageIdentifier" : "Anysphere.Cursor"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Anthropic.Claude"
@@ -296,9 +293,6 @@
 				},
 				{
 					"PackageIdentifier" : "JetBrains.dotTrace"
-				},
-				{
-					"PackageIdentifier" : "Codeium.Windsurf"
 				},
 				{
 					"PackageIdentifier" : "Python.Python.3.13"
@@ -370,5 +364,5 @@
 			}
 		}
 	],
-	"WinGetVersion" : "1.12.460"
+	"WinGetVersion" : "1.28.220"
 }
