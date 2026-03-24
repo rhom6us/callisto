@@ -250,13 +250,10 @@
 					"PackageIdentifier" : "Microsoft.VCRedist.2012.x64"
 				},
 				{
-					"PackageIdentifier" : "Microsoft.WindowsSDK.10.0.22000"
+					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Microsoft.DotNet.AspNetCore.8"
-				},
-				{
-					"PackageIdentifier" : "Microsoft.PowerShell"
 				},
 				{
 					"PackageIdentifier" : "Anthropic.Claude"
@@ -353,9 +350,6 @@
 				},
 				{
 					"PackageIdentifier" : "9N4TL5DXC6C0"
-				},
-				{
-					"PackageIdentifier" : "9N1B9JWB3M35"
 				}
 			],
 			"SourceDetails" : 
