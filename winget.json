@@ -208,9 +208,6 @@
 					"PackageIdentifier" : "Microsoft.DotNet.DesktopRuntime.8"
 				},
 				{
-					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant"
-				},
-				{
 					"PackageIdentifier" : "JLC.EasyEDA.Pro"
 				},
 				{
@@ -239,6 +236,9 @@
 				},
 				{
 					"PackageIdentifier" : "GitHub.GitHubDesktop"
+				},
+				{
+					"PackageIdentifier" : "Intel.IntelDriverAndSupportAssistant"
 				},
 				{
 					"PackageIdentifier" : "writage.writage"
